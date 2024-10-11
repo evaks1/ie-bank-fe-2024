@@ -80,6 +80,6 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: ${{ env.FRONTEND_WEBAPP_DEV }}
+          app-name: ${{ env.FRONTEND_WEBAPP_UAT }}
           package: .
 
