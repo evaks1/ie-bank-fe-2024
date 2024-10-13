@@ -11,6 +11,7 @@ on:
 
 env:
   FRONTEND_WEBAPP_DEV: evaks-fe-dev
+  FRONTEND_WEBAPP_UAT: evaks-fe-uat
 
 jobs:
   build:
