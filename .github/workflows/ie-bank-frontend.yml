@@ -8,6 +8,7 @@ on:
   pull_request:
     branches:
       - main  # Trigger on pull request to 'main' branch
+  workflow_dispatch:
 
 env:
   FRONTEND_WEBAPP_DEV: evaks-fe-dev
